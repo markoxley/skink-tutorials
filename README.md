@@ -5,12 +5,12 @@ This directory contains a set of targeted, hands-on tutorials for learning the S
 ## What you need
 
 - A built `skink` compiler binary.
-- The `SKINK_HOME` environment variable pointing at the directory that contains the `std/` and `runtime/` directories (for example, the `skink-lang/` repo root).
+- The `SKINK_HOME` environment variable pointing at the directory that contains the `std/` and `runtime/` directories (for example, the `skink/` repo root).
 
 A typical compile-and-run command looks like:
 
 ```bash
-SKINK_HOME=/path/to/skink-lang skink -o myprogram myprogram.skink
+SKINK_HOME=/path/to/skink skink -o myprogram myprogram.skink
 ./myprogram
 ```
 

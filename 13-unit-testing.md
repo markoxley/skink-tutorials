@@ -24,7 +24,7 @@ pub fn TestAddition() {
 Use the `skink test` command:
 
 ```bash
-SKINK_HOME=/path/to/skink-lang skink test math_test.skink
+SKINK_HOME=/path/to/skink skink test math_test.skink
 ```
 
 Skink finds every public function whose name starts with `Test`, runs it, and reports pass or fail for each.

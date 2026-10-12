@@ -18,7 +18,7 @@ fn main() -> int {
 ## Compile and run
 
 ```bash
-SKINK_HOME=/path/to/skink-lang skink -o hello hello.skink
+SKINK_HOME=/path/to/skink skink -o hello hello.skink
 ./hello
 ```
 

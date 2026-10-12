@@ -67,7 +67,7 @@ fn main() -> int {
 Programs that use `async`/`await` must link with `compiler/runtime/conc_rt.c`:
 
 ```bash
-SKINK_HOME=/path/to/skink-lang skink -o async_demo main.skink
+SKINK_HOME=/path/to/skink skink -o async_demo main.skink
 ```
 
 The Skink runtime links the concurrency runtime by default when needed.

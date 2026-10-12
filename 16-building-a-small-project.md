@@ -80,7 +80,7 @@ fn main(args: []string) -> int {
 ## Building and running
 
 ```bash
-SKINK_HOME=/path/to/skink-lang skink -o notes main.skink storage.skink
+SKINK_HOME=/path/to/skink skink -o notes main.skink storage.skink
 ./notes list
 ```
 

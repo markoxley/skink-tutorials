@@ -60,7 +60,7 @@ Only `pub` functions, structs, and methods are visible outside the module they a
 When you compile, pass the entry point file. The compiler follows imports automatically:
 
 ```bash
-SKINK_HOME=/path/to/skink-lang skink -o myprogram main.skink
+SKINK_HOME=/path/to/skink skink -o myprogram main.skink
 ```
 
 ## Exercises
